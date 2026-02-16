@@ -1,0 +1,56 @@
+/* AG Grid Community styles */
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-alpine.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* AG Grid container */
+.ag-grid-container {
+  width: 100%;
+  height: 100%;
+}
+
+.ag-theme-alpine {
+  --ag-font-size: 13px;
+  --ag-row-height: 32px;
+  --ag-header-height: 36px;
+}
+
+/* Plotly chart container */
+.chart-container {
+  width: 100%;
+}
+
+/* Financial table hierarchy */
+.financial-row-parent {
+  font-weight: 700 !important;
+  background-color: #f0f4ff !important;
+}
+
+.financial-row-total {
+  font-weight: 700 !important;
+  background-color: #e8efff !important;
+  border-top: 2px solid #4263eb !important;
+}
+
+/* Positive/negative value colors */
+.value-positive {
+  color: #2f9e44;
+}
+
+.value-negative {
+  color: #e03131;
+}

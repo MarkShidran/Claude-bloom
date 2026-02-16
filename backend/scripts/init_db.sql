@@ -1,0 +1,3 @@
+-- Initialize PostgreSQL extensions for Claude Bloom
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
+CREATE EXTENSION IF NOT EXISTS btree_gist;
